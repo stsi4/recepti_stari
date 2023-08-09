@@ -1,6 +1,24 @@
 * {
     background-color: darkslategray;
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.right {
+    float: right;
+    width: 30%;
+}
+
+.left {
+    width: 70%;
+    float: left;
+}
+
+img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
 }
 
 h1, h2 {
